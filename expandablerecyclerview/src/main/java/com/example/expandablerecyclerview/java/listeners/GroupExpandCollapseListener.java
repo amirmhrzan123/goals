@@ -1,6 +1,6 @@
 package com.example.expandablerecyclerview.java.listeners;
 
-import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
+import com.example.expandablerecyclerview.java.models.ExpandableGroup;
 
 public interface GroupExpandCollapseListener {
 

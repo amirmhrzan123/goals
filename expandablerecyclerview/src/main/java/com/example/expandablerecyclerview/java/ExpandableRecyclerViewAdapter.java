@@ -6,14 +6,14 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.ViewGroup;
 
-import com.thoughtbot.expandablerecyclerview.listeners.ExpandCollapseListener;
-import com.thoughtbot.expandablerecyclerview.listeners.GroupExpandCollapseListener;
-import com.thoughtbot.expandablerecyclerview.listeners.OnGroupClickListener;
-import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
-import com.thoughtbot.expandablerecyclerview.models.ExpandableList;
-import com.thoughtbot.expandablerecyclerview.models.ExpandableListPosition;
-import com.thoughtbot.expandablerecyclerview.viewholders.ChildViewHolder;
-import com.thoughtbot.expandablerecyclerview.viewholders.GroupViewHolder;
+import com.example.expandablerecyclerview.java.listeners.ExpandCollapseListener;
+import com.example.expandablerecyclerview.java.listeners.GroupExpandCollapseListener;
+import com.example.expandablerecyclerview.java.listeners.OnGroupClickListener;
+import com.example.expandablerecyclerview.java.models.ExpandableGroup;
+import com.example.expandablerecyclerview.java.models.ExpandableList;
+import com.example.expandablerecyclerview.java.models.ExpandableListPosition;
+import com.example.expandablerecyclerview.java.viewholders.ChildViewHolder;
+import com.example.expandablerecyclerview.java.viewholders.GroupViewHolder;
 
 import java.util.List;
 
