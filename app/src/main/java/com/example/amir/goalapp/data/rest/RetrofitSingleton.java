@@ -16,7 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitSingleton {
     private static RetrofitSingleton retrofitSingleton = null;
     private static Retrofit retrofit = null;
-    private static InAppService apiService = null;
+    private static NetworkService apiService = null;
 
     private RetrofitSingleton() {
         HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
@@ -32,10 +32,10 @@ public class RetrofitSingleton {
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-        apiService = retrofit.create(InAppService.class);
+        apiService = retrofit.create(NetworkService.class);
     }
 
-    public static InAppService getApiService() {
+    public static NetworkService getApiService() {
         if (retrofitSingleton == null) {
             retrofitSingleton = new RetrofitSingleton();
         }

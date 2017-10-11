@@ -11,7 +11,7 @@ import retrofit2.http.Query;
  * Created by Amir on 10/10/2017.
  */
 
-public interface InAppService {
+public interface NetworkService {
 
     @GET(UrlContract.GET_DATA)
     Call<MatchModel> getMatches(@Query("date") String date);
