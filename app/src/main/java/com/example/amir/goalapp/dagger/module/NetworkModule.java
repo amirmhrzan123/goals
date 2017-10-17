@@ -1,4 +1,4 @@
-package com.example.amir.goalapp.dagger;
+package com.example.amir.goalapp.dagger.module;
 
 import android.app.Application;
 

@@ -1,6 +1,7 @@
-package com.example.amir.goalapp.dagger;
+package com.example.amir.goalapp.dagger.module;
 
 import android.app.Application;
+import android.content.res.Resources;
 
 import javax.inject.Singleton;
 
@@ -23,5 +24,11 @@ public class AppModule {
     @Singleton
     Application provideApplication(){
         return mApplication;
+    }
+
+    @Provides
+    @Singleton
+    Resources provideResources() {
+        return mApplication.getResources();
     }
 }
